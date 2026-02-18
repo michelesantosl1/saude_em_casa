@@ -1,3 +1,64 @@
+
+# Saúde em Casa
+
+Sistema web para organização e gerenciamento de atendimentos domiciliares realizados por profissionais da saúde.
+
+## Sobre o Projeto
+
+O Saúde em Casa é uma aplicação desenvolvida para facilitar o controle de tarefas e atendimentos realizados por profissionais de saúde em domicílio.
+
+### O sistema permite:
+
+👩‍⚕️ Cadastro de profissionais
+
+📋 Criação e gerenciamento de tarefas
+
+🔐 Controle de acesso por tipo de usuário (Admin e Profissional)
+
+📊 Painel administrativo para gestão completa
+
+### Tecnologias Utilizadas
+
+Next.js (App Router)
+
+Supabase (Banco de Dados)
+
+Autenticação manual com hash de senha
+
+Middleware para proteção de rotas
+
+Tailwind CSS para estilização
+
+### Tipos de Usuário
+🔹 Admin
+
+Acessa o painel administrativo
+
+Cadastra profissionais
+
+Cria e gerencia tarefas
+
+🔹 Profissional
+
+Realiza login no sistema
+
+Visualiza apenas as tarefas atribuídas a ele
+
+### 🔐 Segurança
+
+Autenticação baseada em cookies
+
+Proteção de rotas via middleware.js
+
+Senhas armazenadas com hash
+
+Controle de acesso por tipo de usuário
+
+### Objetivo do Projeto
+
+Organizar e centralizar o gerenciamento de atendimentos domiciliares, trazendo mais controle, segurança e praticidade para equipes da área da saúde.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
